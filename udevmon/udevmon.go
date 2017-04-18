@@ -1,8 +1,11 @@
+// +build linux
+
 package main
 
 import (
-	"github.com/deniswernert/udev"
 	"log"
+
+	"github.com/deniswernert/udev"
 )
 
 func main() {
